@@ -29,7 +29,7 @@ async function checkControllers() {
 
 
   for (const controller of data.controllers) {
-    if (controller.callsign.startsWith('VABB','VABF','VOGO','VOBL','VOMM')) {
+    if (controller.callsign.startsWith('VCBI','VC','VRMM','VR','VRMF','VCCF')) {
 
       // channel.send({embeds: [ControllerOnline]});
       
